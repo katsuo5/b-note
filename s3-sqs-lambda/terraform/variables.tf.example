@@ -1,0 +1,35 @@
+# provider variables
+variable "provider_region" {
+  description = "Provider region"
+  default     = "ap-northeast-1"
+}
+
+variable "secret_access_key" {
+  description = "Provider access key"
+  default     = "YOUR-ACCESS-KEY"
+}
+
+variable "secret_key" {
+  description = "Provider secret key"
+  default     = "YOUR-SECRET-KEY"
+}
+
+variable "account_id" {
+  description = "Provider account id"
+  default     = "YOUR-ACCOUNT-ID"
+}
+
+variable "bucket_a" {
+  description = "S3 bucket A"
+  default     = "bucket-a"
+}
+
+variable "bucket_b" {
+  description = "S3 bucket B"
+  default     = "bucket-b"
+}
+
+variable "ecr_repo_name" {
+  description = "ECR repository name"
+  default     = "lambda-image-resizer"
+}
